@@ -15,5 +15,5 @@ It is pretty easy to add your own commands for your tayBot. Simply add a new con
 ```
 If you want to make some more complex responses, try logging the message object to see what you can access. You can also check out the examples at https://github.com/slackhq/node-slack-client which this bot uses, although it is currently not very well documented.
 ##Notes
-Current version is actually taken from a slack bot which was made to control a shpero, so some of the commands might not seem very sensible. Then again, this kind of bot isn't supposed to be very sensible anyway.
+Current version is actually taken from a slack bot which was made to control a sphero, so some of the commands might not seem very sensible. Then again, this kind of bot isn't supposed to be very sensible anyway.
 There plans to move all of the commands into a separate file to make the whole thing easier to read.
