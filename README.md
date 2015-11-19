@@ -6,7 +6,8 @@ Because Taylor Swift isn't in your slack teams (yet)
 3. Create a new bot for your slack team at https://YOURTEAM.slack.com/services/new/bot
 4. Create a .env file based on .env-example and paste in your slack bot API token
 5. Run index.js on a server, or use `npm run devstart` to run using nodemon for testing new changes
-##Adding commands
+
+## Adding commands
 It is pretty easy to add your own commands for your tayBot. Simply add a new conditional after index.js:21 using the following form:
 ```JavaScript
     if(message.text.includes("YOUR KEYWORDS")){
